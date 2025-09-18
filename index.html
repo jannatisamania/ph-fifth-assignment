@@ -23,8 +23,8 @@
        
 
     <div class="right-nav flex flex-col sm:flex-row lg:flex-row gap-5  ">
-<div class="heart-btn flex bg-[#f5fff6] btn rounded-full ">
-<h1> 0 </h1>
+<div id="heart" class="heart-btn flex bg-[#f5fff6] btn rounded-full ">
+<h1 id="heart-count"> 0 </h1>
 <img class="h-[30px]" src="./assets/heart.png" alt="">
 </div>
 
@@ -52,7 +52,7 @@
     <!---  lay out section-->
 
     <section class="lay-out  grid lg:grid-cols-12 bg-[#f5fff6] p-8 mt-9 ">
-<div class="card-parent grid  gap-9 col-span-9 md:grid-cols-3 sm:grid-cols-1  mt-3 shadow-lg">
+<div class="card-parent grid  gap-9 col-span-9 md:grid-cols-3 sm:grid-cols-1  mt-3 ">
 
 
 <div class="card-one bg-white p-8 shadow-md rounded-lg">
@@ -62,8 +62,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[15px] mx-auto  " src="./assets/emergency.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart "></i>
     </div>
   </div>
    
@@ -96,8 +96,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[30px] mx-auto  " src="./assets/police.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -130,8 +130,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[20px] mx-auto  " src="./assets/fire-service.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -164,8 +164,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[20px] mx-auto  " src="./assets/ambulance.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -198,8 +198,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[15px] mx-auto  " src="./assets/emergency.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -232,8 +232,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[15px] mx-auto  " src="./assets/emergency.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -267,8 +267,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[15px] mx-auto  " src="./assets/emergency.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -300,8 +300,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[25px] mx-auto  " src="./assets/brac.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -334,8 +334,8 @@
       <div class="bg-[#ffe3e2] rounded-lg  content-center h-[30px] w-[30px]">
        <img class="h-[25px] mx-auto  " src="./assets/Bangladesh-Railway.png" alt="">
     </div>
-    <div>
-        <p><i class="fa-regular fa-heart"></i></p>
+    <div class="heart-icon">
+        <i class="fa-regular fa-heart"></i>
     </div>
   </div>
    
@@ -363,7 +363,7 @@
 </div>
 </div>
 
-<div class="history-parent col-span-3 bg-white  rounded-xl ml-6 mt-3 p-8 shadow-lg">
+<div class="history-parent col-span-3 bg-white  rounded-xl ml-6 mt-3 p-8 shadow-lg ">
  <div class="history-nav flex justify-between">
 <div class="flex gap-2 text-xl">
 <p><i class="fa-regular fa-clock"></i></p>
