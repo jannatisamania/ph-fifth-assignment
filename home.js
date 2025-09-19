@@ -64,12 +64,21 @@ document.getElementById('clear-button').addEventListener('click' , function(){
 const allCopyButton = document.querySelectorAll('.copy-btn') ;
 for(const copyButton of allCopyButton){
   copyButton.addEventListener('click', function(){
-alert('copy button is clicked')
+ alert('service number is copied')
 
-let copyCount = getInnerText('copy-count') ;
+ let copyCount = getInnerText('copy-count') ;
 copyCount ++ ;
 
 document.getElementById('copy-count').innerText = copyCount ;
 
-  }  )
+const copyCard = copyButton.closest('.card')
+
+const serviceCopy = copyCard.querySelector('.service-number').innerText.trim() ;
+ navigator.clipboard.writeText(serviceCopy)
+ 
+
+
+  } )
+
+  
 }
