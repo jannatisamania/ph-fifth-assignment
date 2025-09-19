@@ -1,5 +1,3 @@
-// function
-
 
 function getInnerText (id){
     const element = document.getElementById(id) ;
@@ -8,7 +6,7 @@ function getInnerText (id){
     return elementValueNumber ;
 }
 
-// heart count  
+  
 const allHeart = document.querySelectorAll('.heart-icon') ;
   for( let heart of allHeart){
     heart.addEventListener('click' , function(){
@@ -19,7 +17,7 @@ const allHeart = document.querySelectorAll('.heart-icon') ;
     })
   }
 
-  /***  call button */
+ 
 
    let allCallButton = document.querySelectorAll('.call-btn') ;
 for( let callButton of allCallButton){
